@@ -54,9 +54,6 @@ class JsonPlaceHolderLoadTest extends Simulation{
       .check(status.is(201))
     )
 
-
-  // Step 4: Define the Load Injection pattern
-
   setUp(
     scn.inject(
       atOnceUsers(2),
